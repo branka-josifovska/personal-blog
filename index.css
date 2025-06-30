@@ -1,8 +1,8 @@
 body {
-    margin: auto;
+
     font-family: Arial, sans-serif;
     background-color: #fffaf0;
-    width: 1900px;
+
 }
 
 .navbar {
@@ -12,6 +12,8 @@ body {
     text-align: center;
     align-items: center;
     height: 60px;
+    width: 100%;
+
     padding: 10px 40px;
 }
 
@@ -63,10 +65,10 @@ img {
 
 .s {
     background: url("images/slika3.jpg") no-repeat;
-    width: 686px;
+    width: 600px;
     height: 1200px;
-    margin-top: -1185px;
-    margin-left: 1260px;
+    margin-top: -1085px;
+    margin-left: 1220px;
 }
 
 .ss {
@@ -74,7 +76,7 @@ img {
     background-size: contain;
     width: 706px;
     height: 250px;
-    margin-left: 1410px;
+    margin-left: 1369px;
     margin-top: -500px
 }
 
@@ -92,8 +94,8 @@ img {
     background-size: contain;
     width: 736px;
     height: 250px;
-    margin-left: 1630px;
-    margin-top: -265px
+    margin-left: 1585px;
+    margin-top: -250px
 }
 .k p {
     color: darkred;
@@ -107,5 +109,15 @@ footer {
     font-size: 20px;
     color: darkred;
     margin-top: 600px;
-    width: 1900px;
+    width: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body{
+    overflow-x: hidden;
 }

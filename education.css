@@ -1,9 +1,8 @@
 
 body {
-    margin: auto;
     font-family: Arial, sans-serif;
     background-color: #fffaf0;
-    width: 1900px;
+
 }
 
 .navbar {
@@ -126,3 +125,8 @@ footer {
 }
 
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
